@@ -7,6 +7,9 @@ description: Extract true alpha transparency from images using the two-pass tech
 
 This skill enables creation of images with true alpha transparency using the **two-pass extraction technique**. AI image generators cannot produce genuine transparency, so this technique generates two versions and mathematically derives the alpha channel.
 
+> [!NOTE]
+> **Requirements:** This skill requires an AI image generation tool with **edit/inpainting capability** (ability to modify existing images). Compatible tools include Antigravity and similar services that support the `ImagePaths` parameter for image editing.
+
 ## The Two-Pass Workflow
 
 ### Step 1: Generate Image on White Background
